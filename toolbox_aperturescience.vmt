@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\tf2DefaultStuff\Toolbox_SkinPack/toolbox_ApertureScience"
+	"$bumpmap" "models\tf2DefaultStuff\normal"
+
+	"$nocull" "1"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "25"	
+	"$lightwarptexture" "models\tf2DefaultStuff\weapon_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"building_invis"
+		{
+		}
+	}
+}
